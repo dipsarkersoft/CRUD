@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.ProcessingDiv {
+  top: 0 !important;
+  bottom: 0 !important;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 10000 !important;
+}
+
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 85vh;
+}
+
+
+.table_document{
+  text-align: center;
+  
+}
+
+.table_document h6{
+  margin-top: 18px;
+}
+
+.table_header{
+  text-align: center;
+
+}
+
+.main_form h3{
+  font-family: "Comic Sans MS";
+}
+
+
+.main_form{
+
+  margin-top: 25px;
+  border-radius: 5px ;
+  padding: 25px;
+
+
+  border: 0px solid ;
+
+  box-shadow: #efefef;
+  background-color: #efefef;
+}
+
+.Form{
+  padding: 20px;
+}
+
+.navbar-nav{
+  font-size: 20px;
+
+
+}
+
+
+.Form label{
+  color: #070707;
+  font-size: 20px;
+}
+
+.form-control{
+  font-family: "Arial";
+}
+
+.Main_navbar{
+  background-color: aliceblue;
+}
+
+.navLogo img{
+  width: 100px;
+  height: auto;
+}
+
+.List{
+  margin: 50px;
+  background-color: #efefef;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.list-img{
+  width: auto;
+  height: 50px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
