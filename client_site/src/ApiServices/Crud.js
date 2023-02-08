@@ -9,7 +9,7 @@ import axios from "axios";
 
 export function Create (ProductName,ProductCode,Image,UnitPrice,Qty,TotalPrice){
 
-    const URL="http://localhost:8000/api/v1/creatProducts"
+    const URL="/api/v1/creatProducts"
     const body={
 
         ProductName:ProductName,
@@ -40,7 +40,7 @@ export function Create (ProductName,ProductCode,Image,UnitPrice,Qty,TotalPrice){
 
 
  export function Read (){
-     const URL="http://localhost:8000/api/v1/findAllProduct"
+     const URL="/api/v1/findAllProduct"
    return  axios.get(URL)
         .then((res)=>{
             if (res.status === 200) {
@@ -59,7 +59,7 @@ export function Create (ProductName,ProductCode,Image,UnitPrice,Qty,TotalPrice){
 
 
 export function ReadProductById (id){
-    const URL="http://localhost:8000/api/v1/selectProductById/"+id
+    const URL="/api/v1/selectProductById/"+id
     return  axios.get(URL)
         .then((res)=>{
                 if (res.status === 200) {
@@ -81,7 +81,7 @@ export function ReadProductById (id){
 
  export function Update (id,ProductName,ProductCode,Image,UnitPrice,Qty,TotalPrice){
 
-     const URL="http://localhost:8000/api/v1/updateProduct/"+id
+     const URL="/api/v1/updateProduct/"+id
       const body={
 
 
@@ -112,7 +112,7 @@ export function ReadProductById (id){
 
  export function Delete (id){
 
-     const URL="http://localhost:8000/api/v1/deleteProduct/"+id
+     const URL="/api/v1/deleteProduct/"+id
 
    return axios.post(URL)
 
