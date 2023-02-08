@@ -1,6 +1,6 @@
 import React from 'react';
 import CreateForm from "../components/CreateForm";
-import AllList from "../components/AllList";
+
 
 const CreatePage = () => {
 
@@ -9,7 +9,7 @@ const CreatePage = () => {
 
 
             <CreateForm/>
-            <AllList/>
+
 
 
         </div>
