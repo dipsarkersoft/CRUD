@@ -98,7 +98,7 @@ useEffect(() => {
                                         <td > <h6>{index+1 +"."}</h6></td>
                                         <td ><h6>{item.ProductName}</h6></td>
                                         <td ><h6>{item.ProductCode}</h6></td>
-                                        <td><img className="list-img" alt="Photo" src={item.Image} /></td>
+                                        <td><img className="list-img" alt="Photo." src={item.Image} /></td>
                                         <td ><h6>{item.Qty}</h6></td>
                                         <td ><h6>{item.TotalPrice}</h6></td>
                                         <td ><h6>{item.UnitPrice}</h6></td>
