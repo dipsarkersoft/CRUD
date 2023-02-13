@@ -2,7 +2,7 @@
   "name": "client_site",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://drab-ruby-gecko-belt.cyclic.app",
+  "proxy": "https://easy-pink-llama-cape.cyclic.app/",
   "dependencies": {
     "@ant-design/icons": "^5.0.1",
     "@testing-library/jest-dom": "^5.16.5",
